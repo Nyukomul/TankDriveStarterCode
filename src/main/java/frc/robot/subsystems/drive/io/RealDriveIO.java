@@ -2,6 +2,11 @@ package frc.robot.subsystems.drive.io;
 
 public class RealDriveIO implements DriveIO {
     // TODO: instantiate motors here
+    private TalonFX LeftPrimaryMotor;
+    private TalonFX RightPrimaryMotor;
+    private TalonFX LeftSecondaryMotor;
+    private TalonFX RightSecondaryMotor;
+    private AHRS _gyro;
 
     public RealDriveIO() {
         // TODO: construct motors here
